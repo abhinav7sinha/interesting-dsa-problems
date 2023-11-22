@@ -56,6 +56,13 @@ def sumAllSubmatrices(matrix):
         0,1: 2*2*2 = 8
 
     '''
+    '''
+    Approach: Think of solving in 1D
+        Find all possible subarrays
+        Find contribution of each element
+    TC: O(m*n)
+    SC: O(1)
+    '''
     nrows = len(matrix)
     ncols = len(matrix[0])
     ans = 0
