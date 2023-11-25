@@ -60,4 +60,10 @@ if __name__ == "__main__":
               [-8, -3, 4, 2, 1],
               [-4, 8, 10, 1, 3],
               [-4, 3, 1, 7, -6]]
-    print(maxSubmatrixSum(matrix))
+    matrix2 = [
+        [-10, -5, -3, 5],
+        [-5, 5, 10, 20],
+        [-1, 7, 15, 22],
+        [4, 10, 17, 30]
+    ]
+    print(maxSubmatrixSum(matrix2))
